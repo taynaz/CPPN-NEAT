@@ -1,0 +1,11 @@
+{
+    "num_input": 3,
+    "num_output": 3,
+    "activation_func": [ "identity", "sigmoid", "tanh", "sin", "cosine", "gaussian", "relu", "leakyrelu", "inverse", "absolute"],
+    "weight_init": "randomNormal",
+    "fully_connected": false,
+    "initial_hidden_neurons": 27,
+    "bias": false,
+    "initial_connection" : ["unconnected" , "full_direct", "partial_direct" ]
+
+}
